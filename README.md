@@ -9,7 +9,7 @@ the rate of the stream.
 ``` js
 pull(
   source,
-  Throttle(100), //not more than 100 ms per item!
+  Throttle(100), //not more than one item per 100 ms!
   sink
 )
 ```
